@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/login?sueSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    password: 12345678
+    username: sample
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
